@@ -19,6 +19,9 @@
 body {
     background-image: linear-gradient(to top, var(--preto), var(--cinza-escuro), var(--roxo-escuro), var(--roxo), var(--roxo-claro));
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 main {
@@ -66,7 +69,9 @@ section#social-media a:hover {
 }
 
 footer {
-    margin-top: 35%;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
 }
 
 footer > p {
