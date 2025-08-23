@@ -30,11 +30,6 @@ main {
     gap: 20px;
 }
 
-header {
-    padding: 20px;
-    margin: 20px;
-}
-
 section#social-media {
     display: flex;
     flex-direction: column;
@@ -42,11 +37,13 @@ section#social-media {
     gap: 15px;
     width: 80vw;
     max-width: 600px;
+    margin-top: 5%;
     padding: 20px;
     background-color: rgba(255, 255, 255, 0.253);
     border-radius: 15px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
 }
+
 section#social-media a {
     display: flex;
     align-items: center;
